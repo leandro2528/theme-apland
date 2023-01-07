@@ -1,0 +1,327 @@
+:root {
+    --white: #ffffff;
+    --black: #151e2e;
+    --greyTitle: #848aa6;
+    --greyDarck: #d1e7dd;
+    --greyLight: #ebebeb;
+    --yellow: #f1c40f;
+    --yellowHover: #ffca2c;
+    --redLight: #f4284a;
+    --blueLight: #0d6efd;
+    --blueDarck: #070a57;
+    --blueHover: #0b5ed7;
+    --greenDarck: #0f5132;
+    --bgInput: #2d3543;
+}
+
+/* Responsive tablet */
+@media (min-width:450px) and (max-width:800px) {
+    .icon-menu {
+        position: absolute;
+        top: 14px;
+        right: 20px;
+        font-size: 40px;
+        color: var(--bgInput);
+        cursor: pointer;
+        display: block;
+    }
+
+    .topBar-logo img {
+        margin-left: 30px;
+    }
+
+    .menuClose {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        font-size: 40px;
+        color: var(--bgInput);
+        cursor: pointer;
+    }
+
+    .menuClose {
+        display: block;
+        color: var(--white);
+    }
+
+    .topBar-menu nav {
+        display: none;
+        transition: 0.5s;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        z-index: 2;
+        width: 50vw;
+        height: 600px;
+        background-color: var(--bgInput);
+        box-shadow: 1px 1px 10px var(--greyTitle);
+    }
+
+    .topBar-menu nav ul {
+        flex-direction: column;
+        margin-left: 40px;
+        line-height: 50px;
+    }
+
+    .topBar-menu nav a {
+        font-size: 16px;
+        color: var(--white);
+    }
+
+    .topBar-menu li button {
+        font-size: 16px;
+        width: 140px;
+        height: 40px;
+    }
+
+    .main-description {
+        width: 100%;
+    }
+
+    .main-description {
+        width: 50%;
+        padding-left: 30px;
+    }
+
+    .main-description h1 {
+        font-size: 40px;
+        left: 30px;
+        line-height: 40px;
+    }
+
+    .main-description h1 span {
+        font-size: 40px;
+    }
+
+    .main-description img {
+        width: 100%;
+    }
+
+    .main-banner-int {
+        max-width: 800px;
+    }
+
+    .row {
+        width: 700px;
+    }
+
+    .main-photo {
+        width: 50%;
+        justify-content: flex-end;
+    }
+
+    .main-photo img {
+        width: 400px;
+        height: 400px;
+        margin-right: 60px;
+    }
+
+    .feacture-card-box {
+        flex-wrap: wrap;
+        padding: 0 30px;
+    }
+
+    .feacture-card-last {
+        justify-content: space-between;
+        padding-bottom: 60px;
+    }
+
+    .feacture-card-last-item {
+        margin: 0;
+    }
+
+    .purchased h2 {
+        font-size: 36px;
+    }
+
+    .footer-int {
+        flex-wrap: wrap;
+    }
+
+    .footer-about {
+        width: 50%;
+        padding-left: 30px;
+    }
+
+    .footer-important-links {
+        width: 50%;
+        padding-right: 30px;
+    }
+
+    .footer-dowload {
+        padding-left: 30px;
+        padding-bottom: 50px;
+    }
+
+    .footer-copy-infor {
+        padding-left: 30px;
+    }
+
+    .footer-copy-right {
+        padding-right: 30px;
+    }
+
+    .footer-copy-icon {
+        padding-right: 30px;
+    }
+}
+
+/* Responsive celphone */
+@media (max-width:450px) {
+    .icon-menu {
+        position: absolute;
+        top: 14px;
+        right: 10px;
+        font-size: 60px;
+        color: var(--bgInput);
+        cursor: pointer;
+        display: block;
+    }
+
+    .topBar-logo img {
+        margin-left: 30px;
+    }
+
+    .menuClose {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        font-size: 40px;
+        color: var(--bgInput);
+        cursor: pointer;
+    }
+
+    .menuClose {
+        display: block;
+        color: var(--white);
+    }
+
+    .topBar-menu nav {
+        display: none;
+        transition: 0.5s;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        z-index: 2;
+        width: 100vw;
+        height: 600px;
+        background-color: var(--bgInput);
+        box-shadow: 1px 1px 10px var(--greyTitle);
+    }
+
+    .topBar-menu nav ul {
+        flex-direction: column;
+        margin-left: 40px;
+        line-height: 50px;
+    }
+
+    .topBar-menu nav a {
+        font-size: 16px;
+        color: var(--white);
+    }
+
+    .topBar-menu li button {
+        font-size: 16px;
+        width: 140px;
+        height: 40px;
+    }
+
+    .main-description {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .main-description h1 {
+        font-size: 40px;
+     
+        line-height: 40px;
+    }
+
+    .main-description h1 span {
+        font-size: 40px;
+    }
+
+    .main-description img {
+        width: 100%;
+    }
+
+    .main-banner-int {
+        flex-direction: column;
+    }
+
+    .row {
+        width: 380px;
+    }
+
+    .main-photo {
+        padding: 50px 0;
+        width: 100%;
+    }
+
+    .main-photo img {
+        width: 300px;
+        height: 350px;
+    }
+
+    .feacture-int{
+        padding: 100px 0;
+    }
+
+    .feacture-card-box {
+        flex-wrap: wrap;
+        padding: 0 30px;
+    }
+
+    .feacture-card-last {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .feacture-card-last-item {
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .purchased{
+        padding: 0 20px;
+        margin: 0;
+        height: 300px;
+    }
+
+    .purchased h2 {
+        font-size: 20px;
+    }
+
+    .footer-int {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .footer-about {
+        width: 50%;
+        padding-left: 30px;
+    }
+
+    .footer-important-links {
+        width: 50%;
+        padding-left: 30px;
+    }
+
+    .footer-dowload {
+        padding-left: 30px;
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+
+    .footer-copy-infor {
+        padding-left: 30px;
+    }
+
+    .footer-copy-right {
+        padding-right: 30px;
+    }
+
+    .footer-copy-icon {
+        padding-right: 30px;
+    }
+}

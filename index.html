@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reponsive.css">
+    <title>Apland - App Landing Page | Designing Word</title>
+</head>
+
+<body>
+    <header id="index.html">
+        <div class="topBar">
+            <div class="topBar-int">
+                <div class="topBar-logo">
+                    <a href="#index.html">
+                        <img src="assets/images/logo.png" alt="Logo do thema apland">
+                    </a>
+                </div>
+                <div class="topBar-menu">
+                    <ion-icon class="icon-menu" onclick="menuOpened()" name="menu-outline"></ion-icon> <!--icon-menu-->
+                    <nav>
+                        <ion-icon class="menuClose" onclick="menuClosed()" name="close-outline"></ion-icon>
+                        <ul>
+                            <li onclick="link()">
+                                <a href="#index.html" class="active">Home</a>
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </li>
+
+                            <li onclick="link()">
+                                <a href="#feacture">Feacture</a>
+                            </li>
+
+                            <li onclick="link()">
+                                <a href="">Pages</a>
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </li>
+
+                            <li onclick="link()">
+                                <a href="">Dowload</a>
+                            </li>
+
+                            <li onclick="link()">
+                                <a href="">Blog</a>
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </li>
+
+                            <li onclick="link()">
+                                <a href="#footer">Contact</a>
+                            </li>
+
+                            <li onclick="link()">
+                                <button>Sing Up</button>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!--topBar-int-->
+        </div> <!--topBar-->
+        <a href="#index.html">
+            <ion-icon class="icon-up" name="chevron-up-outline"></ion-icon>
+        </a>
+        <div class="icon-darck">
+            <img src="assets/images/dark.png" alt="">
+        </div>
+    </header>
+
+    <section class="main-banner">
+        <div class="main-banner-int">
+            <div class="main-description">
+                <p>&clubs; New updated version 5.1.2</p>
+                <h1>A creative landing page for your creative <span>websites.</span></h1>
+                <h2>
+                    Apland is a completely <span>creative, lightweight, clean & super responsive</span> app landing
+                    page.
+                    It's built with the latest technology & comes with <span>dark mode.</span>
+                </h2>
+                <button>Buy A License</button>
+            </div> <!--main-description-->
+            <div class="main-photo">
+                <img src="assets/images/banner-principal.png" alt="">
+            </div>
+        </div> <!--main-banner-int-->
+    </section> <!--main-banner-->
+
+    <section class="row"></section>
+
+    <section class="feacture" id="feacture">
+        <div class="feacture-int">
+            <hr class="bar">
+            <div class="feacture-title">Why Buy It?</div> <!--feacture-title-->
+            <div class="feacture-description">Key Features</div> <!--feacture-description-->
+            <div class="feacture-bar"></div> <!--feacture-bar-->
+            <div class="feacture-cards">
+                <div class="feacture-card-box">
+                    <div class="feacture-card-item">
+                        <img src="assets/images/bootstrap.png" alt="">
+                        <h2>Bootstrap 5.0.2</h2>
+                        <span>We've used the latest bootstrap to create fast, responsive sites.</span>
+                    </div>
+                    <div class="feacture-card-item">
+                        <img src="assets/images/npm.png" alt="">
+                        <h2>NPM</h2>
+                        <span>We've used npm for easily manage and update all assets.</span>
+                    </div>
+                    <div class="feacture-card-item">
+                        <img src="assets/images/gulp.png" alt="">
+                        <h2>Gulp 4.</h2>
+                        <span>A toolkit to automate & enhance your workflow.</span>
+                    </div>
+
+                    <div class="feacture-card-item">
+                        <img src="assets/images/pug.png" alt="">
+                        <h2>PUG</h2>
+                        <span>Pug is a JavaScript compiler for creating automatic HTML code.</span>
+                    </div>
+                    <div class="feacture-card-item">
+                        <img src="assets/images/dark.png" alt="">
+                        <h2>Dark mode</h2>
+                        <span>Dark mode now available for better user experience.</span>
+                    </div>
+                    <div class="feacture-card-item">
+                        <img src="assets/images/sass.png" alt="">
+                        <h2>SAAS</h2>
+                        <span>Sass is a preprocessor scripting language that is compiled into CSS.</span>
+                    </div>
+                </div> <!--feacture-card-box-->
+
+                <div class="feacture-card-last">
+                    <div class="feacture-card-last-item">
+                        <img src="assets/images/bootstrap.png" alt="">
+                        <h2>Modern design</h2>
+                        <span>Designed and built following the latest trends in the user interface.</span>
+                    </div>
+                    <div class="feacture-card-last-item">
+                        <img src="assets/images/npm.png" alt="">
+                        <h2>Fast loading</h2>
+                        <span>This template loads very faster. Coded in such a way that it loads quickly.</span>
+                    </div>
+                </div> <!--feacture-card-last-->
+            </div> <!--feacture-cards-->
+        </div> <!--feacture-int-->
+    </section> <!--feacture-->
+
+    <section class="purchased" id="purchased">
+        <h2>More than 680+ websites have <br>
+            been created by the Apland. You <br>
+            can buy it with confidence.
+        </h2>
+        <button>Purchased Now</button>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-int">
+            <div class="footer-about">
+                <div class="footer-about-title">
+                    <h2>About</h2>
+                    <p>
+                        Apland is a completely <br> creative, lightweight,
+                        clean & <br> super responsive app landing <br> page.
+                        Put your <br> app sales or promotions into next level <br> with it.
+                    </p>
+                </div>
+                <div class="footer-our-office">
+                    <h2>Our Office</h2>
+                    <p>
+                        Designing World <br>
+                        Dhaka, Bangladesh <br>
+                        (+880) 123456 789
+                    </p>
+                </div>
+            </div>
+            <div class="footer-important-links">
+                <h2>Important Links</h2>
+                <ul>
+                    <li>
+                        <a href="">Help</a>
+                    </li>
+                    <li>
+                        <a href="">Support</a>
+                    </li>
+                    <li>
+                        <a href="">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="">Term & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="">Call Center</a>
+                    </li>
+                    <li>
+                        <a href="">Email Us</a>
+                    </li>
+                    <li>
+                        <a href="">Term & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="">Help Center</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-dowload">
+                <h2>Dowload Our App</h2>
+                <div class="footer-g-play">
+                    <img src="assets/images/google-play.png" alt="">
+                </div>
+                <div class="footer-app-store">
+                    <img src="assets/images/app-store.png" alt="">
+                </div>
+                <form action="" class="form-group">
+                    <h3>Newsletter</h3>
+                    <input type="email" name="email" placeholder="your Email">
+                    <button>Subscriber</button>
+                </form>
+            </div>
+        </div>
+        <hr style="width: 100%;" size="1" color="#2d3543">
+        <div class="footer-copy">
+            <div class="footer-copy-int">
+                <div class="footer-copy-infor">
+                    2021 &copy; Made with &hearts; by <span>Designing World</span>
+                </div>
+                <div class="footer-copy-icon">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-slack"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/responsive.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
